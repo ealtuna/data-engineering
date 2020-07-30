@@ -1,0 +1,4 @@
+[submodule "amunsen"]
+	path = amunsen
+	url = https://github.com/lyft/amunsen
+	branch = master
