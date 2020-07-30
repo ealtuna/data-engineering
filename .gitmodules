@@ -1,4 +1,4 @@
-[submodule "amunsen"]
-	path = amunsen
-	url = https://github.com/lyft/amunsen
+[submodule "amundsen"]
+	path = amundsen
+	url = https://github.com/lyft/amundsen
 	branch = master
