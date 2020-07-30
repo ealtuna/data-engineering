@@ -1,0 +1,3 @@
+[submodule "amundsen"]
+	path = amundsen
+	url = https://github.com/lyft/amundsen.git
