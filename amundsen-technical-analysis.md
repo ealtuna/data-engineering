@@ -4,4 +4,4 @@ Deployment options are standalone or using Docker images with the container orch
 
 Out the box the application does not provide an authentication mechanism. The recommended way is using a OIDC provider. The project documentation provide with the instructions to integrate the chosen OIDC provider using the flaskoidc module of Flask server. If installed using the standalone method, dependencies of each project need to be installed using PIP or NPN (depending of the specific technology).
 
-For new versions, when minor version upgrades, changes should be backwards compatible. As individual services do not state they can be replaced with newer versions without impact (in any case refer to the release notes of the specific version). Mayor versions come with specific upgrade guides which steps need to be follow.
+For new versions, when minor version upgrades, changes should be backwards compatible. As individual services do not store state they can be replaced with newer versions without impact (in any case refer to the release notes of the specific version). Mayor versions come with specific upgrade guides which steps need to be follow.
