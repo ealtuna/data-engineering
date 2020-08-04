@@ -92,4 +92,4 @@ https://lyft.github.io/amundsen/authentication/oidc/#building-frontend-with-oidc
 
 ## References
 
-https://lyft.github.io/amundsen/authentication/oidc/
+https://lyft.github.io/amundsen/installation/
