@@ -82,6 +82,14 @@ Set the method as the auth user method in your config.py:
     
 Once done, you’ll have the end-to-end authentication in Amundsen without any proxy or code changes.
 
+### Using Okta with Amundsen on K8s
+
+https://lyft.github.io/amundsen/authentication/oidc/#using-okta-with-amundsen-on-k8s
+
+### Building frontend with OIDC included
+
+https://lyft.github.io/amundsen/authentication/oidc/#building-frontend-with-oidc
+
 ## References
 
 https://lyft.github.io/amundsen/authentication/oidc/
