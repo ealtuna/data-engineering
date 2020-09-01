@@ -6,7 +6,7 @@
  
 ## Installation options
 
- - Docker images: using a container orchestration method of choise.
+ - Docker images: using a container orchestration method of choice.
  - Kubernetes: using the official chart (https://github.com/amundsen-io/amundsen/tree/master/amundsen-kube-helm)
  
 ## Installation with Docker
@@ -55,5 +55,5 @@ Command: gunicorn -w 2 --bind :PORT amundsen_application.wsgi
 
 ## Next steps
 
-Configura authentication (https://github.com/amundsen-io/amundsen/blob/master/docs/authentication/oidc.md)
+Configure authentication (https://github.com/amundsen-io/amundsen/blob/master/docs/authentication/oidc.md)
 Use Apache Airflow tasks to update metadata (https://github.com/amundsen-io/amundsen/blob/master/docs/tutorials/index-postgres.md)
