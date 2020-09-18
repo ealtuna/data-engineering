@@ -1,3 +1,6 @@
+In BigQuery editor:
+
+```
 CREATE OR REPLACE MODEL `ecommerce.classification_model`
 OPTIONS
 (
@@ -30,3 +33,4 @@ FROM
   GROUP BY fullvisitorid)
   USING (fullVisitorId)
 ;
+```
