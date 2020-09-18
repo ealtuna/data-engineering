@@ -74,3 +74,5 @@ FROM
 
 ));
 ```
+
+Reference: https://google.qwiklabs.com/focuses/1794
