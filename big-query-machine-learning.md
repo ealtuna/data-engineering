@@ -216,4 +216,8 @@ SELECT * EXCEPT(unique_session_id) FROM (
 ));
 ```
 
+Tip: add warm_start = true to your model options if you are retraining new data on an existing model for faster training times. Note that you cannot change the feature columns (this would necessitate a new model).
+
+roc_auc is just one of the performance metrics available during model evaluation. Also available are accuracy, precision, and recall. Knowing which performance metric to rely on is highly dependent on what your overall objective or goal is.
+
 Reference: https://google.qwiklabs.com/focuses/1794
