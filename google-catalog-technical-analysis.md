@@ -1,6 +1,6 @@
 Google Data Catalog (GDC) provides support to managed datasource metadata retrieval (no configuration needed) for Google Cloud Storage, Bigquery and Cloud Pub/Sub services. Users can also use GDC API to support metadata to any other datasource.
 
-Some examples of connector supported by the community are MySQL, PostgreSQL, SQLServer, Redshift, Oracle, Teradata, Vertica, Greenplum, Looker, Tableau, Hive and Apache Atlas. In a nutshell these connectors use the specific API of the RDBMS to extract the metadata about existing object and populates them in GDC using the provided public API. Using this architecture it's possible to create additional connectors for specific needs.
+Some examples of connector supported by the community are MySQL, PostgreSQL, SQLServer, Redshift, Oracle, Teradata, Vertica, Greenplum, Looker, Tableau, Hive and Apache Atlas. In a nutshell these connectors use the specific API of the source system to extract the metadata about existing objects and populates them in GDC using the provided public API. Using this architecture it's possible to create additional connectors for specific needs. Extracted objects are classified as table, dataset, data stream, fileset and view.
 
 Connectors supported by the community are develop in Python. In order to use them you need execute and orchestrate using the method of choice. In the GCP there multiple possible options like:
 
