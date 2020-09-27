@@ -19,5 +19,7 @@ For the natively supported objects GDC provides automatic security integration. 
 References:
 
 https://www.youtube.com/watch?v=Qq76r-z_50c
+https://google.qwiklabs.com/focuses/11999?parent=catalog
+https://google.qwiklabs.com/focuses/11034?parent=catalog
 https://github.com/GoogleCloudPlatform/datacatalog-connectors
 https://github.com/GoogleCloudPlatform/datacatalog-connectors-rdbms
