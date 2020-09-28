@@ -14,7 +14,7 @@ Using App Engine to create an endpoint and run with the cronjob support provided
 
 For standar connectors the only support provided is the extraction of tables, fields and data types. The Catalog promotes the concept of tag templates. Using tag templates you can define families of tags to apply to tables and fields. By default GDC do not fill any tag related information, but you can create your own in custom integrations.
 
-For the natively supported objects GDC provides automatic security integration. For example, if you have access to see data in a Bigquery table then you are able to see sample data in GDC, if you can see metadata of a table in Bigquery then you can see the metadata in GDC, if you have no access in Bigquery the table will not show. In the connectors supported by the community there is no security support, all objects are visible to all users, but you can create personalizations to address those issues.
+For the natively supported objects GDC provides automatic security integration. For example, if you have access to see data in a Bigquery table then you are able to see sample data in GDC, if you can see metadata of a table in Bigquery then you can see the metadata in GDC, if you have no access in Bigquery the table will not show. In the connectors supported by the community there is no security support, all objects are visible to all users, but you can create personalizations to address those issues. Coarse level permissions can be granted using standar GCP security mechanisms.
 
 References:
 
